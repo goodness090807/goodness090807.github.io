@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Terry&#39;s Blog</title>
-    <link>/myfirstblog/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Terry&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2020 Notepadium.</copyright>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/myfirstblog/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>syntax</title>
-      <link>/myfirstblog/categories/syntax/</link>
+      <link>/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/myfirstblog/categories/syntax/</guid>
+      <guid>/categories/syntax/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>themes</title>
-      <link>/myfirstblog/categories/themes/</link>
+      <link>/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/myfirstblog/categories/themes/</guid>
+      <guid>/categories/themes/</guid>
       <description></description>
       
     </item>
