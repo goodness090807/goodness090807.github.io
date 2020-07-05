@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Terry&#39;s Blog</title>
+    <link>/myfirstblog/tags/blog/</link>
+    <description>Recent content in Blog on Terry&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>©2020 Notepadium.</copyright>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/myfirstblog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我的第一篇文章</title>
+      <link>/myfirstblog/post/myfirstpost/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/myfirstblog/post/myfirstpost/</guid>
+      <description>終於把文章建好啦 int i = 0; string str = string.Empty; List&amp;lt;string&amp;gt; Liststr = null; 123</description>
+      
+    </item>
+    
+  </channel>
+</rss>
