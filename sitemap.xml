@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://goodness090807.github.io/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/</loc><lastmod>2020-07-07T20:50:16+08:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/post/setuphugo/</loc><lastmod>2020-07-07T20:50:16+08:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/post/</loc><lastmod>2020-07-07T20:50:16+08:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/blog/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/git/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/github/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/post/firstpost/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/post/myfirstpost/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
-    <loc>https://goodness090807.github.io/post/</loc><lastmod>2020-07-05T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/categories/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/css/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/html/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/markdown/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
-    <loc>https://goodness090807.github.io/post/markdown-syntax/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/oldpost/markdown-syntax/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/oldpost/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/categories/syntax/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/themes/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/categories/themes/</loc><lastmod>2019-03-11T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/privacy/</loc><lastmod>2019-03-10T00:00:00+00:00</lastmod></url><url>
-    <loc>https://goodness090807.github.io/post/rich-content/</loc><lastmod>2019-03-10T00:00:00+00:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/oldpost/rich-content/</loc><lastmod>2019-03-10T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/shortcodes/</loc><lastmod>2019-03-10T00:00:00+00:00</lastmod></url><url>
-    <loc>https://goodness090807.github.io/post/placeholder-text/</loc><lastmod>2019-03-09T00:00:00+00:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/oldpost/placeholder-text/</loc><lastmod>2019-03-09T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/text/</loc><lastmod>2019-03-09T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/post/math-typesetting/</loc><lastmod>2019-03-08T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/emoji/</loc><lastmod>2019-03-05T00:00:00+00:00</lastmod></url><url>
-    <loc>https://goodness090807.github.io/post/emoji-support/</loc><lastmod>2019-03-05T00:00:00+00:00</lastmod></url><url>
+    <loc>https://goodness090807.github.io/oldpost/emoji-support/</loc><lastmod>2019-03-05T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/about/</loc><lastmod>2019-02-28T00:00:00+00:00</lastmod></url><url>
     <loc>https://goodness090807.github.io/tags/index/</loc></url></urlset>
