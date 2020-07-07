@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2020 Notepadium.</copyright>
-    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 20:50:16 +0800</lastBuildDate>
     
         <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>git版本控制 將本地資料上傳到github</title>
-      <link>/post/firstpost/</link>
-      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      <title>使用hugo建立自己的Blog</title>
+      <link>/post/setuphugo/</link>
+      <pubDate>Tue, 07 Jul 2020 20:50:16 +0800</pubDate>
       
-      <guid>/post/firstpost/</guid>
-      <description>在練習寫程式的的時候，假如遇到要換地方工作，或者是要團隊合作編輯文件時 通常會透過git將資料push到一個儲存地方，假如程式</description>
+      <guid>/post/setuphugo/</guid>
+      <description>經歷了一大段時間，終於把我的Blog做好啦，本來想自己透過我的專長，利用 .net MVC來做一個可以寫文章的環境，但是發現這樣做要花很多時間去維護和</description>
       
     </item>
     
