@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>所有文章 on Terry&#39;s Blog</title>
-    <link>/post/</link>
-    <description>Recent content in 所有文章 on Terry&#39;s Blog</description>
+    <title>.net Core on Terry&#39;s Blog</title>
+    <link>/tags/.net-core/</link>
+    <description>Recent content in .net Core on Terry&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2020 Notepadium.</copyright>
     <lastBuildDate>Thu, 09 Jul 2020 21:31:24 +0800</lastBuildDate>
     
-        <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/.net-core/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>/post/usenetcore/</guid>
       <description>這篇主要紀錄 .net core的安裝流程 方便自己換電腦的時候來重新安裝，那我們就開始來今天的教學吧 ※ 到官網下載 .net Core 3.1 (載點) ※ 開啟之後，按個安裝就完</description>
-      
-    </item>
-    
-    <item>
-      <title>使用hugo建立自己的Blog</title>
-      <link>/post/setuphugo/</link>
-      <pubDate>Tue, 07 Jul 2020 20:50:16 +0800</pubDate>
-      
-      <guid>/post/setuphugo/</guid>
-      <description>經歷了一大段時間，終於把我的Blog做好啦，本來想自己透過我的專長，利用 .net MVC來做一個可以寫文章的環境，但是發現這樣做要花很多時間去維護和</description>
       
     </item>
     
