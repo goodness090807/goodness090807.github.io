@@ -32,15 +32,5 @@
       
     </item>
     
-    <item>
-      <title>使用Heroku來架站吧!</title>
-      <link>/post/userheroku/</link>
-      <pubDate>Tue, 14 Jul 2020 20:51:22 +0800</pubDate>
-      
-      <guid>/post/userheroku/</guid>
-      <description>Heroku是一個提供免費架站的好地方，主要是讓我們這些完成小作品，但是沒有地方可以 進入Heroku官網(連結) 進去後透過Sign_up註冊</description>
-      
-    </item>
-    
   </channel>
 </rss>
