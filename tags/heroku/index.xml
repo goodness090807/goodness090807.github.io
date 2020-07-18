@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Heroku on Terry&#39;s Blog</title>
+    <link>/tags/heroku/</link>
+    <description>Recent content in Heroku on Terry&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>©2020 Notepadium.</copyright>
+    <lastBuildDate>Sat, 18 Jul 2020 15:17:31 +0800</lastBuildDate>
+    
+        <atom:link href="/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>將dotnet Core 程式 部署到 Herku</title>
+      <link>/post/herokudeployindotnetcore/</link>
+      <pubDate>Sat, 18 Jul 2020 15:17:31 +0800</pubDate>
+      
+      <guid>/post/herokudeployindotnetcore/</guid>
+      <description>這裡來記錄一下，我是如何將寫好的網站部署到Heroku的，以下就開始教學啦 ※ 在Heroku建立新的App 進入到Heroku頁面後(連結)，在</description>
+      
+    </item>
+    
+  </channel>
+</rss>

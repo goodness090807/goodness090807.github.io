@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©2020 Notepadium.</copyright>
-    <lastBuildDate>Fri, 17 Jul 2020 21:19:06 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2020 15:17:31 +0800</lastBuildDate>
     
         <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>將dotnet Core 程式 部署到 Herku</title>
+      <link>/post/herokudeployindotnetcore/</link>
+      <pubDate>Sat, 18 Jul 2020 15:17:31 +0800</pubDate>
+      
+      <guid>/post/herokudeployindotnetcore/</guid>
+      <description>這裡來記錄一下，我是如何將寫好的網站部署到Heroku的，以下就開始教學啦 ※ 在Heroku建立新的App 進入到Heroku頁面後(連結)，在</description>
+      
+    </item>
     
     <item>
       <title>開始建立你的第一個 .net core網站啦!</title>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.73.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>將dotnet Core 程式 部署到 Herku&nbsp;&ndash;&nbsp;Terry&#39;s Blog</title><link rel="stylesheet" href="/css/core.min.04418448e07b18b2f21843fcc8f0b5a193ff7d08b2ff6126a6287d49ee2e9051c515db4239ca6352211eab6bb36c0d84.css" integrity="sha384-BEGESOB7GLLyGEP8yPC1oZP/fQiy/2Empih9Se4ukFHFFdtCOcpjUiEeq2uzbA2E"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="將dotnet Core 程式 部署到 Herku" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Terry's Blog</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">分類</a><a class="nav item" href="/tags/">所有標籤</a><a class="nav item" href="/about/">關於我</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">將dotnet Core 程式 部署到 Herku</h1><p class="article date">Jul 18, 2020</p></section><article class="article markdown-body"><p>這裡來記錄一下，我是如何將寫好的網站部署到Heroku的，以下就開始教學啦</p>
+<h2 id="font-color008000font-在heroku建立新的app"><font color=#008000>※</font> 在Heroku建立新的App</h2>
+<p>進入到Heroku頁面後(<a href="https://dashboard.heroku.com/apps"target="_blank">連結</a>)，在右上角點選 &ldquo;New&rdquo; -&gt; &ldquo;Create New App&rdquo; 來建立一個新的站台</p>
+<p><img  src="https://i.imgur.com/Bn14XuB.jpg"
+        alt="HerokuCreateApp"/></p>
+<p>進去之後輸入站台名稱(這個只能輸入小寫哦)，區域的話我是選擇預設，之後就可以按Create App 建立站台囉</p>
+<p><img  src="https://i.imgur.com/lQB5C5E.jpg"
+        alt="CreateAppPage"/></p>
+<p>接下來就可以切換到指令來將程式上版上去囉!</p>
+<p>這邊我是使用PowerShell 來上版，但要使用指令前，要先去下載 Heroku 的 CLI，這樣才能透過你的終端機來上版哦(<a href="https://devcenter.heroku.com/articles/heroku-cli"target="_blank">下載網址</a>)</p>
+<h2 id="font-color008000font-基本指令設定"><font color=#008000>※</font> 基本指令設定</h2>
+<p>先將你的位置設定到你程式的資料</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">cd </span><span class="n">yourPath</span>   <span class="p">//</span><span class="n">yourPath改成你的資料夾路徑</span>
+</code></pre></div><p>接下來就會開始使用到Heroku的指令囉</p>
+<p>首先輸入以下指令，先登入你的Heroku</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">heroku</span> <span class="n">login</span>
+</code></pre></div><p>然後會出現一串文字，是告訴你 按 <em><strong>任何一個按鈕</strong></em> 打開網頁 或 按 <em><strong>q</strong></em> 離開</p>
+<p><img  src="https://i.imgur.com/tDkp47o.jpg"
+        alt="HerokuPressKey"/></p>
+<p>隨便按一個鍵後，會自動幫你開啟一個網頁</p>
+<img src ="https://i.imgur.com/9ktSCrc.jpg" alt = "HerokuCommandLogin" style ="height: 300px;">
+<p>這裡只要點Log In就好了，登入完之後就可以回去終端機，繼續使用指令操作了</p>
+<hr>
+<p>接下來還需要加入Buildpack，因為Heroku預設是不會建置dotnet core這個程式的，所以需要引入第三方撰寫的Buildpack才可以建置，不然最後丟上去會失敗，在這邊我是引用<a href="https://elements.heroku.com/buildpacks/jincod/dotnetcore-buildpack"target="_blank">這個網站</a>的Buildpack</p>
+<p>這個網址裡面提到只要輸入以下指令，-a xxxxx 是選擇你要設定的站台名稱，Heroku就會幫你設定好這個第三方套件了</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">heroku</span> <span class="n">buildpacks</span><span class="err">:</span><span class="nb">set </span><span class="n">jincod</span><span class="p">/</span><span class="n">dotnetcore</span> <span class="n">-a</span> <span class="n">xxxxx</span>
+</code></pre></div><h2 id="font-color008000font-將程式發布到heroku"><font color=#008000>※</font> 將程式發布到Heroku</h2>
+<p>環境設定好之後就是git的一些指令操囉啦!</p>
+<p>Heroku有三種上版方式可以使用，參考下圖</p>
+<p><img  src="https://i.imgur.com/ai82mGb.jpg"
+        alt="HerokuDeployMethod"/></p>
+<p>這次我是使用Heroku來將程式發佈上去</p>
+<p>首先跟一般Git一樣建立一個新的儲存庫</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">git</span> <span class="n">init</span>
+</code></pre></div><p>接下來將你的儲存庫連接到你的Heroku站台， xxxxx 是你站台的名稱</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">heroku</span> <span class="n">git</span><span class="err">:</span><span class="n">remote</span> <span class="n">-a</span> <span class="n">xxxxx</span>
+</code></pre></div><p>最後就是每次更新程式都需要做的動作，也就是把現有程式丟到Heroku，有以下幾個指令</p>
+<ul>
+<li>第一個是將資料加入索引</li>
+<li>Commit的話，是將資料提交上去並在 雙引號內輸入提交資訊</li>
+<li>第三個就是把目前的程式退送到 Heroku啦!</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">git</span> <span class="n">add</span> <span class="p">.</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="n">-am</span> <span class="s2">&#34;提交資訊&#34;</span>
+<span class="n">git</span> <span class="n">push</span> <span class="n">heroku</span> <span class="n">master</span>
+</code></pre></div><p>當這三個動作執行完後，Heroku就會自動把你的網站環境設定好</p>
+<p>等它跑完之後，接下來就可以回到後台，如果有看到Build Succeeded的話就代表程式建置成功囉!</p>
+<p><img  src="https://i.imgur.com/93hpZgI.jpg"
+        alt="DeploySucceeded"/></p>
+<p>接下來就可以去點 &ldquo;Open App&rdquo; 去看你的網站了!</p>
+<p><img  src="https://i.imgur.com/b5xa29N.jpg"
+        alt="OpenApp"/></p>
+<p>這樣就成功把你的網站發佈到Heroku囉!</p>
+<p><img  src="https://i.imgur.com/UU0PzMY.jpg"
+        alt="WebDisPlay"/></p>
+</article><section class="article labels"><a class="tag" href=/tags/asp%2enet-core/>asp.net Core</a><a class="tag" href=/tags/heroku/>Heroku</a></section></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/post/dotnetcorenewproject/"><span class="iconfont icon-article"></span>開始建立你的第一個 .net core網站啦!</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">©2020 Notepadium.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></body>
+
+</html>
