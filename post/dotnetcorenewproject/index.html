@@ -34,7 +34,7 @@
 <p><img  src="https://i.imgur.com/J89FEBu.jpg"
         alt="dotnewweb"/></p>
 <h2 id="font-color008000font-開啟你的專案"><font color=#008000>※</font> 開啟你的專案</h2>
-<p>再來要怎麼開啟專案呢，也很簡單，因為你目前就在此目錄，所以只要輸入以下指令</p>
+<p>再來要怎麼開啟專案呢，因為你目前就在此目錄，所以只要輸入以下指令</p>
 <div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">code</span> <span class="p">.</span>
 </code></pre></div><p>就會自動開啟你的vsCode啦!</p>
 <p>左邊的位置預設就是你目錄的位置哦!這樣就可以開始編輯你的網頁囉</p>
@@ -42,20 +42,28 @@
         alt="code ."/></p>
 <p>然後為什麼我的右下角會出現 Debug Missing的提示呢，因為我有裝C#的Extension 如果遇到專案是需要Debug的就會跳出提示</p>
 <h2 id="font-color008000font-要怎麼安裝c-extension-呢"><font color=#008000>※</font> 要怎麼安裝C# Extension 呢?</h2>
-<p>很簡單只要移動到Extensions 並搜尋 C# 然後找到星星那個按下Install就安裝好囉!</p>
+<p>只要移動到Extensions 並搜尋 C# 然後找到星星那個按下Install就會安裝了!</p>
 <p>啊!抱歉，我的是已經安裝好了，所以沒有Install，但你們那邊會看到，放心按下去就對了
 <img  src="https://i.imgur.com/YDZcyIG.jpg"
         alt="dotnewweb"/></p>
 <p>接下來如果有跳出提示視窗就選擇&quot;Yes&quot;就對了XD</p>
 <p>他就會自動幫你建立Debug的環境囉!</p>
 <h2 id="font-color008000font-開啟網站"><font color=#008000>※</font> 開啟網站</h2>
-<p>建立好Debug環境後，接下來只要按<strong>F5</strong>就會建立開始執行你的第一個網頁囉!484很神奇XD (迷之聲：並沒有</p>
+<p>建立好Debug環境後，接下來只要按<strong>F5</strong>就會建立開始執行你的第一個網頁囉!</p>
 <p>然後因為預設會把你的連線設定在Https 所以進去網頁的時候會有這個畫面</p>
 <p><img  src="https://i.imgur.com/hizj9L5.jpg"
         alt="localpage"/></p>
-<p>這時候不要緊張，這是因為你的本機端沒有憑證的關係才會出現這個，這時候只要 Do Re Mi So，啊!不是這個 是只要點選 &ldquo;<font color=#008000>進階</font>&rdquo; -&gt; &ldquo;<font color=#008000>繼續前往 localhost 網站 (不安全)</font>&rdquo;</p>
-<p>這樣就能看到你的網頁啦! 其實那個不安全是沒關係啦!因為這是你本地端的網站，不用去擔心資料被竊取什麼的XD</p>
-<p>好啦!終於把基礎的網站建立打完了，這樣是不是對開發網站又更了解一些了呢?</p>
+<p>這是因為你的本機端沒有憑證的關係才會出現這個</p>
+<p>如果懶得設定本機憑證的話，只要點選 &ldquo;<font color=#008000>進階</font>&rdquo; -&gt; &ldquo;<font color=#008000>繼續前往 localhost 網站 (不安全)</font>&rdquo;</p>
+<p>但覺得不安全訊息不好看的話，可以用指令建立你的憑證</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">dotnet</span> <span class="n">dev-certs</span> <span class="n">https</span> <span class="p">-</span><span class="n">-trust</span>
+</code></pre></div><p>輸入完後會詢問你是否要安裝憑證，這時候點選&quot;是&quot;就會自動安裝了。</p>
+<p><img  src="https://i.imgur.com/jrwaDIM.jpg"
+        alt="InstallCertificate"/></p>
+<p>這時候再開啟網站，就會出現憑證囉!</p>
+<p><img  src="https://i.imgur.com/s1tr7CD.jpg"
+        alt="InstallCertificate"/></p>
+<p>好啦!終於把基礎的網站建立打完了，這樣是不是對開發網站又更了解一些了</p>
 <p>接下來如果我有空的話會再介紹一些網頁的知識，讓你一步步把你理想中的網站建立完成哦!敬啟期待</p>
 </article><section class="article labels"><a class="tag" href=/tags/asp%2enet-core/>asp.net Core</a></section></div>
 <div class="article bottom"><section class="article navigation"><p><a class="link" href="/post/herokudeployindotnetcore/"><span class="iconfont icon-article"></span>將dotnet Core 程式 部署到 Herku</a></p><p><a class="link" href="/post/usenetcore/"><span class="iconfont icon-article"></span>下載並安裝ASP.net core</a></p></section></div></section><section id="footer"><div class="footer-wrap">
