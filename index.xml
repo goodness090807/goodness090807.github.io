@@ -23,12 +23,18 @@
     </item>
     
     <item>
-      <title>關於我</title>
+      <title></title>
       <link>/about/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>目前專長 C# .net framework MVC開發 WebFrom開發 目前自學 EntityFrameWork 連結資料庫，Dapper也有大概涉略 有T-SQL開發經驗 除了基本的 CRUD和Join或G</description>
+      <description>關於我 蔡家誠(Terry) 嗨!我是一名後端工程師，擅長使用C#開發網頁及各項應用程式，目前專注在 .net framework 的開發。
+近期自學：Pyton程式語法與網頁框架，VueJs前端框架，AWS、GCP雲端應用
+我的技術   C# 會使用基本的C#函式庫，還有加解密的應用，並透過基本的Linq去做資料查詢，並了解物件導向架構的設計理念，最大目標是希望能設計出清楚的程式架構。
+  Asp .net 相關技術  Win Form桌面應用程式開發 webService基本開發與串接 Web Form、MVC網頁開發，和MVC的Razro語法操作 API設計與串接，了解基礎Restful設計方式，  其他：Asp .net core 技術自我學習，透過 asp .net core 練習各項應用
+  前端技術  Html、css元件及基本畫面設計 Bootstrap 的RWD基本排版與元件應用 javascript &amp;amp; Jquery元件操作與應用 ajax 與後端串接 一些JqueryUI的技術應用 Cookie與Session相關(有研究目前Chrome Cookie samesite政策對網站的影響，目前處理過串接第三方Post Back 時掉Cookie消失掉的問題。)    資料庫技術 擅長使用MSSQL做資料的應用，除了基本的操作之外，也了解以下用法
+ CTE資料暫存與查詢 了解資料庫Transaction(交易)的概念 實作過預存程序(Store Procedure)優化大量資料的存取動作 透過自訂資料表型別(Table Type)的參數，做到大量資料的Merge，讓20分鐘的資料存取時間降到不用10秒。  其他：Mongodb 自學，了解基本的NoSQL的價值，有自己實作新刪修的功能。
+  版本控制 SVN、Git</description>
       
     </item>
     
